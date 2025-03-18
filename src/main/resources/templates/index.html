@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../static/style.css" th:href="@{style.css}">
 </head>
 <body>
+    <h1 style=text-align='center'>biler</h1>
 <div class="container">
     <div class="square" th:each="car : ${carList}">
         <img th:src="@{'/img/' + ${car.image}}" alt="Car Image" />
